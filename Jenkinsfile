@@ -5,7 +5,7 @@ pipeline {
         OPENSHIFT_SERVER = 'https://api.ocp.labs.networknuts.net:6443'
         OPENSHIFT_TOKEN = credentials('jenkins-openshift-token')
         OPENSHIFT_NAMESPACE = 'devops'
-        GIT_REPO_URL = 'https://github.com/arytmw/jenkins-openshift-pipeline.git'
+        GIT_REPO_URL = 'https://github.com/networknuts/jenkins-openshift-pipeline.git'
         DEPLOYMENT_YAML_PATH = 'deployment.yml'
     }
     
